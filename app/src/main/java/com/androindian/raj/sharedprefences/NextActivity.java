@@ -121,6 +121,9 @@ public class NextActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_slideshow) {
 
+            Intent intent=new Intent(NextActivity.this,Broad.class);
+            startActivity(intent);
+
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
